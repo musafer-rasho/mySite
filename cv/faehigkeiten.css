@@ -1,0 +1,265 @@
+
+html{
+  background-color:  rgba(196, 191, 191, 0.973);
+}
+.h1-con h1{
+    text-align: center;
+
+  }
+  
+  
+  .topNav-con{
+    position: relative;
+    background-color: #0baff0;
+    border: 1px solid black ;
+    box-shadow: 0 0 15px rgba(17, 19, 20, 1);
+    overflow: hidden;
+   top: 0px;
+   float: left;
+   width: 100%;
+   border-radius: 10px;
+  
+   
+}
+
+
+  
+  .topNav-con a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding:1.2%;
+    text-decoration: none;
+  }
+  
+    
+  
+    .topNav-con a:hover {
+      background-color: #0d0b7e7e;
+     
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+    }
+    
+   
+    
+    .active {
+      background-color: #0d0b7e7e;
+
+      border-radius: 10%;
+   
+    }
+    .main-con {
+      background-color: aquamarine;
+      
+      height: 50%;
+      width: 100%;
+      position: absolute;
+      top: 25%;
+      border-radius: 10px;
+      padding-top: 2%;
+      padding-left: 2%;
+    }
+
+
+
+    .outer{
+      height: 18px;
+      width: 50%;
+      background-color:white;
+      border-radius: 5px;
+      border: 2px solid black ;
+      
+      
+      
+  
+  }
+  .text{
+    float: right;
+    padding-right: 1%;
+
+}
+  .inner1{
+      height: 100%;
+      width: 65%;
+      background-color: aqua;
+      float: left;
+      padding-left: 1%;
+  
+  }
+ 
+  .inner2{
+      height: 100%;
+      width: 70%;
+      background-color: aqua;
+      float: left;
+      padding-left: 1%;
+  
+  }
+  .inner3{
+      height: 100%;
+      width: 40%;
+      background-color: aqua;
+      float: left;
+      padding-left: 1%;
+  
+  }
+  .inner4{
+      height: 100%;
+      width: 60%;
+      background-color: aqua;
+      float: left;
+      padding-left: 1%;
+  
+  }
+  .inner5{
+      height: 100%;
+      width: 80%;
+      background-color: aqua;
+      float: left;
+      padding-left: 1%;
+  
+  }
+  .inner6{
+      height: 100%;
+      width: 85%;
+      background-color: aqua;
+      float: left;
+      padding-left: 1%;
+  
+  }
+  .inner7{
+      height: 100%;
+      width: 90%;
+      background-color: aqua;
+      float: left;
+      padding-left: 1%;
+  
+  }
+  .inner8{
+      height: 100%;
+      width: 70%;
+      background-color: aqua;
+      float: left;
+      padding-left: 1%;
+  
+  }
+
+
+
+
+
+    .footer-con{
+      background-color: rgb(0, 0, 0);
+      box-shadow: 0 0 50px rgb(31, 29, 29);
+      padding: 20px;
+      text-align: left;
+     position: fixed;
+      bottom: 0px;
+      left: 0;
+      width: 100%;
+      
+    
+  }
+  .footerText-con{
+    color: beige;
+   font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: 0px;
+    top: 1px;
+    text-align: center;
+}
+.footerText-con p{
+    font-size: smaller;
+}
+
+  /*Händys screen */
+@media screen and (max-width:580px) {
+  
+ 
+  .h1-con{
+      
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+}
+
+.h1-con h1{
+  text-align: center;
+  font-size: large;
+}
+
+
+  
+  
+  
+  .topNav-con{
+    position: absolute;
+ 
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+   top:5%;
+   float: right;
+
+   border-radius: 5px;
+   
+}
+
+
+  
+  .topNav-con a {
+    float: left;
+    display: block;
+    
+    text-align: center;
+    padding-right: 4px;
+font-size: x-small;
+    text-decoration: none;
+  }
+  
+  .main-con {
+
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    border-radius: 10px;
+    padding-top: 2%;
+  }
+  .outer{
+    width: 75%;
+    font-size: x-small;
+  }
+.text{
+  font-size: smalle;
+}
+    
+  .footer-con{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 50px rgb(31, 29, 29);
+    padding: 20px;
+    text-align: left;
+   position: fixed;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    
+  
+}
+.footerText-con{
+    color: rgb(247, 247, 241);
+   font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: 0px;
+    top: 1px;
+    font-size: x-small;
+}
+  
+  
+  
+  
+  }

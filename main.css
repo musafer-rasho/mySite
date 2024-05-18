@@ -1,0 +1,101 @@
+
+
+
+.main-container{
+    border-radius:4%;
+    background-color: rgb(193, 243, 243);
+    padding: 0px;
+    margin: 0;
+   
+    width: 100%;
+    position: relative;
+ 
+}
+.h1-con{
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.imgÜberMich-con{
+    position: relative;
+    width: 150px;
+    height: 200px;
+   
+
+    
+}
+.img-con{
+    position:relative;
+    left: 10px;
+    top: 40px;
+    width:200px;
+    height:200px;
+    
+}
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius:50%;
+
+    
+}
+@media screen and (max-width: 568px) {
+    img{  
+
+    max-width:50%;
+
+}
+
+}
+
+.Name-con{
+    position:absolute;
+    padding-left: 5px;
+   
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+   
+
+   
+}
+.Name-con h3{
+    position: relative;
+    display: flex;
+    color: rgb(209, 33, 10);
+}
+
+
+
+.introText-con{
+    position: relative;
+    top: 20%;
+}
+
+
+
+
+
+
+
+.footer-con{
+    background-color: rgb(34, 32, 32);
+    position:absolute;
+    width: 100%;
+    bottom: 100px;
+    top: 1000px;
+    height: 100px;
+    border-radius: 2.5%;
+  
+}
+.footerText-con{
+    font-size:large;
+   font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: 10px;
+    top: 15px;
+}

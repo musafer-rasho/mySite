@@ -1,5 +1,5 @@
 html{
-  background-color: rgba(226, 226, 106, 0.5);
+  background-color: beige;
 }
 .h1-con h1{
     text-align: center;
@@ -8,7 +8,7 @@ html{
   
   .topNav-con{
     position: relative;
-    background-color:  #0baff0;
+    background:rgba(104, 141, 221, 0.685);
     overflow: hidden;
    top: 0px;
    float: left;
@@ -25,7 +25,7 @@ html{
     .topNav-con a {
       float: left;
       display: block;
-      color: #f2f2f2;
+      color: black;
       text-align: center;
       padding: 1.2%;
       text-decoration: none;
@@ -33,9 +33,10 @@ html{
     
   
     .topNav-con a:hover {
-      background-color: #0d0b7e7e;
+      background-color: #a9a8df7e;
       border-radius: 10px;
-      box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+      box-shadow: inset 5px -5px 5px rgba(0, 0, 0, 0.7);
+     
     }
     
    
@@ -46,7 +47,7 @@ html{
     }
 
     .main-con {
-      background-color: aquamarine;
+      
       font-family: 'Times New Roman', Times, serif;
       font-size:large;
       border-radius: 10px;

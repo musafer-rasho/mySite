@@ -1,5 +1,5 @@
 html{
-    background-color:rgba(196, 191, 191, 0.973);
+    background-color:beige;
 }
 
 body{
@@ -12,25 +12,22 @@ body{
 
 
 
-.main-container{
-   position: relative;
 
-
-    padding: 0px;
-    margin: 0;
-  
- 
-}
 .header-container{
-    position: block;
-    width:100%;
+    position: relative;
+    top: 0.5%;
+    left: 0.5%;
+    width:97.5%;
     border-radius:10px 10px 0px 0px;;
-    background-color: #4d9ec7;
-    margin-top: 1%;
-    top: 0%;
+    box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.603);
+    background:rgba(51, 107, 228, 0.685);
+  
+    border: 1px solid rgba(54, 54, 54, 0.623);
+border-bottom:none ;
+    
+
    
-
-
+ 
    
     
 }
@@ -63,12 +60,9 @@ body{
     height:100%;
 
     border-radius:10%;
-    box-shadow: 0 0 15px rgba(17, 19, 20, 1);
+   box-shadow: 0 0 10px rgba(17, 19, 20, 1);
     
 }
-
-
-
 
 .Name-con{
     position: relative;
@@ -96,12 +90,18 @@ body{
     top: 0%;
     float: right;
     padding-right: 0%;
+    margin-right: 1.8%;
     display: flex;
     justify-content: center;
     align-items: center;
-   
-    background-color:  #4d9ec7;
+    border: 1px solid rgba(54, 54, 54, 0.623);
+    border-top: none;
+    border-left: none;
+    background:rgba(104, 141, 221, 0.685);
    border-radius: 0 0 10px 10px;
+   box-shadow: 0px 15px 25px  rgba(0, 0, 0, 0.5);
+   backdrop-filter: blur(10px);
+   
    
 }
 
@@ -112,16 +112,17 @@ body{
     text-align: center;
     padding: 10px;
     width:20%;
-    color: #eeeaea;
+    color: #000000;
     
     text-decoration: none;
   }
   
 
   .topNav-con a:hover {
-    background-color: #0d0b7e7e;
+    background-color: #a9a8df7e;
     border-radius: 10px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+    box-shadow: inset 5px -5px 5px rgba(0, 0, 0, 0.7);
+   
   }
   
  
@@ -136,12 +137,12 @@ body{
     width: 20%;
     height: 6%;
     top: 0%;
-    left: 0%;
+    left: 0.5%;
     display: flex;
     flex-direction: row;
  
-    background-color:  #4d9ec7;
-    
+    background:rgba(104, 147, 240, 0.685);
+    backdrop-filter: blur(10px);
     
     border-radius: 0 0 10px 10px;
     text-align: center;

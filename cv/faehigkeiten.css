@@ -86,8 +86,17 @@ html{
       background:rgba(4, 80, 245, 0.685);
       float: left;
       padding-left: 1%;
+      animation: progressAnimatio1 5s;
+    }
+    
+    @keyframes progressAnimatio1{
+        0%{width: 0%;}
+        
+        65%{width: 65%;}
+      
+    }
   
-  }
+  
  
   .inner2{
       height: 100%;
@@ -96,15 +105,32 @@ html{
       float: left;
       padding-left: 1%;
   
-  }
+      animation: progressAnimatio2 5s;
+    }
+    
+    @keyframes progressAnimatio2{
+        0%{width: 0%;}
+        
+        70%{width: 70%;}
+      
+    }
+  
   .inner3{
       height: 100%;
       width: 40%;
       background:rgba(4, 80, 245, 0.685);
       float: left;
       padding-left: 1%;
+      animation: progressAnimatio3 5s;
+    }
+    
+    @keyframes progressAnimatio3{
+        0%{width: 0%;}
+        
+        40%{width: 40%;}
+      
+    }
   
-  }
   .inner4{
       height: 100%;
       width: 60%;
@@ -112,7 +138,16 @@ html{
       float: left;
       padding-left: 1%;
   
-  }
+      animation: progressAnimatio4 5s;
+    }
+    
+    @keyframes progressAnimatio4{
+        0%{width: 0%;}
+        
+        60%{width: 60%;}
+      
+    }
+  
   .inner5{
       height: 100%;
       width: 80%;
@@ -120,23 +155,48 @@ html{
       float: left;
       padding-left: 1%;
   
-  }
+      animation: progressAnimatio5 5s;
+    }
+    
+    @keyframes progressAnimatio5{
+        0%{width: 0%;}
+        
+        80%{width: 80%;}
+      
+    }
+  
   .inner6{
       height: 100%;
       width: 85%;
       background:rgba(4, 80, 245, 0.685);
       float: left;
       padding-left: 1%;
+      animation: progressAnimation6 5s;
+    }
+    
+    @keyframes progressAnimation6{
+        0%{width: 0%;}
+        
+        85%{width: 85%;}
+      
+    }
   
-  }
   .inner7{
       height: 100%;
       width: 90%;
       background:rgba(4, 80, 245, 0.685);
       float: left;
       padding-left: 1%;
+      animation: progressAnimatio7 5s;
+    }
+    
+    @keyframes progressAnimatio7{
+        0%{width: 0%;}
+        
+        70%{width: 90%;}
+      
+    }
   
-  }
   .inner8{
       height: 100%;
       width: 70%;
@@ -144,7 +204,16 @@ html{
       float: left;
       padding-left: 1%;
   
-  }
+      animation: progressAnimatio8 5s;
+    }
+    
+    @keyframes progressAnimatio8{
+        0%{width: 0%;}
+        
+        70%{width: 70%;}
+      
+    }
+  
 
 
 

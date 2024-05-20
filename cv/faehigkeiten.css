@@ -47,7 +47,7 @@ html{
     .active {
       background-color: #0d0b7e7e;
 
-      border-radius: 10%;
+      border-radius: 10px;
    
     }
     .main-con {

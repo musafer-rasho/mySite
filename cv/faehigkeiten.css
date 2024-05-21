@@ -1,6 +1,6 @@
 
 html{
-  background-color:  beige;
+  background-color: white;
 }
 .h1-con h1{
     text-align: center;
@@ -67,7 +67,7 @@ html{
     .outer{
       height: 18px;
       width: 50%;
-      background-color:beige;
+      background-color:white;
       border-radius: 5px;
       border: 2px solid black ;
       
@@ -100,7 +100,7 @@ html{
  
   .inner2{
       height: 100%;
-      width: 70%;
+      width: 60%;
       background:rgba(4, 80, 245, 0.685);
       float: left;
       padding-left: 1%;
@@ -111,7 +111,7 @@ html{
     @keyframes progressAnimatio2{
         0%{width: 0%;}
         
-        70%{width: 70%;}
+        60%{width: 60%;}
       
     }
   
@@ -133,7 +133,7 @@ html{
   
   .inner4{
       height: 100%;
-      width: 60%;
+      width: 50%;
       background:rgba(4, 80, 245, 0.685);
       float: left;
       padding-left: 1%;
@@ -144,13 +144,13 @@ html{
     @keyframes progressAnimatio4{
         0%{width: 0%;}
         
-        60%{width: 60%;}
+        50%{width: 50%;}
       
     }
   
   .inner5{
       height: 100%;
-      width: 80%;
+      width: 60%;
       background:rgba(4, 80, 245, 0.685);
       float: left;
       padding-left: 1%;
@@ -161,13 +161,13 @@ html{
     @keyframes progressAnimatio5{
         0%{width: 0%;}
         
-        80%{width: 80%;}
+        60%{width: 60%;}
       
     }
   
   .inner6{
       height: 100%;
-      width: 85%;
+      width: 75%;
       background:rgba(4, 80, 245, 0.685);
       float: left;
       padding-left: 1%;
@@ -177,13 +177,13 @@ html{
     @keyframes progressAnimation6{
         0%{width: 0%;}
         
-        85%{width: 85%;}
+        75%{width: 75%;}
       
     }
   
   .inner7{
       height: 100%;
-      width: 90%;
+      width: 80%;
       background:rgba(4, 80, 245, 0.685);
       float: left;
       padding-left: 1%;
@@ -193,7 +193,7 @@ html{
     @keyframes progressAnimatio7{
         0%{width: 0%;}
         
-        70%{width: 90%;}
+        80%{width: 80%;}
       
     }
   
@@ -244,12 +244,12 @@ html{
 }
 
   /*Händys screen */
-@media screen and (max-width:580px) {
+  @media only screen and (min-width: 360px) and (max-width:768px) {
   
  
   .h1-con{
       
-    font-family: 'Courier New', Courier, monospace;
+
     position: absolute;
     top: 3%;
     left: 50%;
@@ -259,7 +259,7 @@ html{
 
 .h1-con h1{
   text-align: center;
-  font-size: large;
+  font-size: medium
 }
 
 
@@ -293,39 +293,22 @@ font-size: x-small;
   
   .main-con {
 
-    height: 50%;
-    width: 100%;
+  
     position: absolute;
-    top: 10%;
-    border-radius: 10px;
-    padding-top: 2%;
+    top: 15%;
+    
   }
   .outer{
     width: 75%;
-    font-size: x-small;
+    font-size: small;
   }
 .text{
-  font-size: smalle;
+  font-size: small;
 }
-    
-  .footer-con{
-    background-color: rgb(0, 0, 0);
-    box-shadow: 0 0 50px rgb(31, 29, 29);
-    padding: 20px;
-    text-align: left;
-   position: fixed;
-    bottom: 0px;
-    left: 0;
-    width: 100%;
     
   
-}
 .footerText-con{
-    color: rgb(247, 247, 241);
-   font-family: 'Times New Roman', Times, serif;
-    position: relative;
-    left: 0px;
-    top: 1px;
+ 
     font-size: x-small;
 }
   

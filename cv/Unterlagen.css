@@ -1,5 +1,5 @@
 html{
- background-color:  beige;
+ background-color: white;
 }
 .h1-con h1{
     text-align: center;
@@ -45,20 +45,37 @@ html{
       border-radius: 10px;
     }
 
-    .main-con {
+    .table-con{
  
-      height: 100%;
-      width: 100%;
-      position: absolute;
-      top: 25%;
       border-radius: 10px;
-      padding-top: 2%;
-      padding: 1%;
+      position: relative;
+     top:1%;
+     width:100%;
+     padding: 2%;
+     padding-bottom: 200px;
+    }
+    .unrelagen-con{
+      margin: 20px;
+     }
+     table{
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th,td{
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #000000;
+    }
+    th{
+      background-color: rgba(245, 245, 174, 0.753);
     }
 
     .dowonload-img{
       position: absolute;
-  width: 1.5%;
+
+      width: 1%;
+      
+  
   
     }
     
@@ -77,23 +94,22 @@ html{
   }
   .footerText-con{
     color: beige;
-   font-family: 'Times New Roman', Times, serif;
+
     position: relative;
     left: 0px;
     top: 1px;
     text-align: center;
 }
 .footerText-con p{
-    font-size: smaller;
+    font-size: small;
 }
 
 /*Händys screen */
-@media screen and (max-width: 580px) {
+@media only screen and (min-width: 360px) and (max-width:768px){
   .h1-con{
       margin: 0%;
  
 
-      font-family: 'Courier New', Courier, monospace;
       position: absolute;
       top: 3%;
       left: 50%;
@@ -103,7 +119,8 @@ html{
 
   .h1-con h1{
     text-align: center;
-    font-size: large;
+    font-size: medium;
+  
   }
   
   
@@ -126,64 +143,58 @@ html{
   .topNav-con a {
     float: left;
     display: block;
-    color: #f2f2f2;
+ 
     text-align: center;
     padding-right: 4px;
 font-size: x-small;
     text-decoration: none;
   }
   .topNav-con a:hover {
-    background-color: #0d0b7e7e;
+   
     border-radius: 5px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+
   }
   
  
   
   .active {
-    background-color: #0d0b7e7e;
+
     border-radius: 5px;
   }
-  .main-con{
-    background-color: aquamarine;
-    height: 50%;
-    width: 100%;
-position:absolute;
-top: 10%;
-    border-radius: 10px;
 
-    padding-top: 2%;
-} 
-.main-con h2{
-  font-size: small;
-} 
-li{
-  font-size: small;
-}
+  .table-con{
+
+    border-radius: 10px;
+    position: absolute;
+    padding: 5%;
+   top:10%;
+   width: 100%;
+  }
+  .unterlagen-con{
+    margin: 10px;
+   }
+   table{
+     width: 100%;
+     border-collapse: collapse;
+   
+   }
+   th,td{
+    font-size: x-small;
+     padding: 8px;
+     text-align: left;
+    
+   }
+   
+
 .dowonload-img{
   position: absolute;
 width: 3%;
 
 }
 
-.footer-con{
-  background-color: rgb(0, 0, 0);
-  box-shadow: 0 0 50px rgb(31, 29, 29);
-  padding: 20px;
-  text-align: left;
- position: fixed;
-  bottom: 0px;
-  left: 0;
-  width: 100%;
-  
 
-}
 .footerText-con{
-  color: rgb(247, 247, 241);
- font-family: 'Times New Roman', Times, serif;
-  position: relative;
-  left: 0px;
-  top: 1px;
+ 
   font-size: x-small;
 }
  
